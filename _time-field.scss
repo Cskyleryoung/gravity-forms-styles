@@ -1,0 +1,32 @@
+.ginput_container_time {
+    float: left;
+
+    label {
+        font-size: $sub-label-font-size;
+        font-weight: normal;
+        margin: 0;
+    }
+}
+
+.gfield_time_hour {
+    width: 78px;
+
+    input {
+        display: inline-block;
+        width: 58px;
+    }
+
+    i {
+        display: inline-block;
+        font-style: normal;
+        font-weight: bold;
+        line-height: $field-height;
+        text-align: center;
+        width: 12px;
+    }
+}
+
+.gfield_time_minute {
+    margin-right: 7px;
+    width: 58px;
+}

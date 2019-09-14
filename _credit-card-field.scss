@@ -1,0 +1,82 @@
+.gform_card_icon_container {
+    padding: 3px 0 5px;
+}
+
+.gform_card_icon {
+  @extend %gf-cc-icon;
+
+  margin-right: 5px;
+}
+
+.gform_card_icon_amex {
+  @extend %gf-icon-cc-amex;
+}
+
+.gform_card_icon_discover {
+  @extend %gf-icon-cc-discover;
+}
+
+.gform_card_icon_mastercard {
+  @extend %gf-icon-cc-master;
+}
+
+.gform_card_icon_visa {
+  @extend %gf-icon-cc-visa;
+}
+
+.ginput_cardinfo_left {
+  float: left;
+  margin-right: $form-spacing-x;
+}
+
+.ginput_card_expiration_container {
+  select {
+    display: inline-block;
+    width: 80px;
+  }
+
+  label {
+    display: block;
+    font-size: $sub-label-font-size;
+    font-weight: normal;
+  }
+}
+
+.ginput_cardinfo_right {
+  float: left;
+
+  .ginput_card_security_code {
+    width: 120px;
+  }
+}
+
+.ginput_card_security_code {
+  display: block;
+  float: left;
+  margin-right: 5px;
+}
+
+.ginput_card_security_code_icon {
+  @extend %gf-cc-icon;
+  @extend %gf-icon-cc-plain;
+
+  display: block;
+  float: left;
+  margin-right: 5px;
+
+  & + label {
+    clear: left;
+    display: block;
+    float: left;
+    font-size: $sub-label-font-size;
+    font-weight: normal;
+  }
+}
+
+/* Error Style */
+.gfield_creditcard_warning_message {
+  @extend %error-message;
+
+  border-radius: $border-radius;
+  padding: $padding-medium;
+}

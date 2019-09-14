@@ -1,0 +1,29 @@
+/* These styles apply to wide screen layout. Mobile defaults to single column. */
+
+@media screen and (min-width: $breakpoint-small) {
+  .ginput_container_name {
+    display: flex;
+
+    .name_prefix {
+      flex: 0 0 80;
+      padding-right: $form-spacing-x;
+    }
+
+    .name_prefix,
+    .name_suffix {
+      flex: 0 0 100px;
+      padding-right: $form-spacing-x;
+    }
+
+    .name_first,
+    .name_middle,
+    .name_last {
+      flex: 1 auto;
+      padding-right: $form-spacing-x;
+    }
+
+    & > span:last-child {
+      padding-right: 0;
+    }
+  }
+}

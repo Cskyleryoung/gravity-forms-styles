@@ -1,0 +1,67 @@
+.ui-datepicker {
+  background: #fefefe;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.45);
+
+  .ui-datepicker-header {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid $border-color;
+    padding: 10px;
+  }
+
+  .ui-datepicker-title {
+    text-align: center;
+  }
+
+  .ui-datepicker-month,
+  .ui-datepicker-year {
+    width: 65px;
+  }
+
+  .ui-datepicker-prev {
+    float: left;
+  }
+
+  .ui-datepicker-next {
+    float: right;
+  }
+
+  .ui-icon {
+    @extend %gf-basic-icon;
+  }
+
+  .ui-icon-circle-triangle-w {
+    @extend %gf-icon-chevron-left;
+  }
+
+  .ui-icon-circle-triangle-e {
+    @extend %gf-icon-chevron-right;
+  }
+
+  select {
+    background-color: #fff;
+    height: 24px;
+  }
+
+  .ui-datepicker-month {
+    margin-right: 7px;
+  }
+
+  .ui-datepicker-calendar {
+    margin: 10px;
+
+    th {
+      padding: 7px;
+    }
+
+    td a {
+      display: block;
+      padding: 7px;
+
+      &:hover {
+        background-color: #f9f9f9;
+      }
+    }
+  }
+}

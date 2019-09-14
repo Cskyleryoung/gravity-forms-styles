@@ -1,0 +1,29 @@
+@media screen and (min-width: $breakpoint-small) {
+  .gf_left_half {
+    float: left;
+    margin-right: #{$form-spacing-x};
+    width: calc(50% - #{$form-spacing-x}/2);
+  }
+
+  .gf_right_half {
+    float: left;
+    width: calc(50% - #{$form-spacing-x}/2);
+  }
+
+  .gf_left_third,
+  .gf_middle_third {
+    float: left;
+    margin-right: #{$form-spacing-x};
+    width: calc(33% - #{$form-spacing-x}*2/3);
+  }
+
+  .gf_right_third {
+    float: left;
+    width: calc(34% - #{$form-spacing-x}*2/3);
+  }
+
+  .gf_right_half + .gfield,
+  .gf_right_third + .gfield {
+    clear: both;
+  }
+}

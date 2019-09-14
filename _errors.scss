@@ -1,0 +1,66 @@
+/*
+    These are general error styles.
+    Field specific error styles are
+    located next to the rest of the
+    styles for that field.
+
+    Note that this is one case where
+    we are nesting all of the styles
+    under a commone parent. It is
+    correct as we are overriding
+    styles for a specific purpose.
+*/
+
+.gform_validation_error {
+  .gform_fields .gfield_error {
+    margin-bottom: $form-spacing-y;
+  }
+
+  .validation_error {
+    @extend %error-message;
+
+    border-radius: $border-radius;
+    margin-bottom: $form-spacing-y;
+    padding: 10px;
+  }
+
+  .gfield_error {
+    background: $error-background;
+    border-radius: $border-radius;
+    margin-bottom: $form-spacing-y;
+    padding: 0 5px 12px;
+    position: relative;
+
+    .gfield_label {
+      color: $error-color;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="date"],
+    input[type="month"],
+    input[type="week"],
+    input[type="time"],
+    input[type="number"],
+    input[type="search"],
+    input[type="url"],
+    select,
+    textarea {
+      border-color: $error-color;
+    }
+  }
+
+  .validation_message {
+    @extend %error-message;
+
+    border-radius: 0 0 $border-radius $border-radius;
+    bottom: 0;
+    left: 0;
+    line-height: 16px;
+    padding: 2px 5px;
+    position: absolute;
+    width: 100%;
+  }
+}

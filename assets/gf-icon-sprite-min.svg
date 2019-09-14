@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192px" height="24px" viewBox="0 0 192 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Sprite Minimal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Sprite-Minimal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="search" fill="#505050" fill-rule="nonzero">
+            <path d="M9.5,3 C13.0898509,3 16,5.91014913 16,9.5 C16,11.11 15.41,12.59 14.44,13.73 L14.71,14 L15.5,14 L20.5,19 L19,20.5 L14,15.5 L14,14.71 L13.73,14.44 C12.59,15.41 11.11,16 9.5,16 C5.91014913,16 3,13.0898509 3,9.5 C3,5.91014913 5.91014913,3 9.5,3 L9.5,3 Z M9.5,5 C7,5 5,7 5,9.5 C5,12 7,14 9.5,14 C12,14 14,12 14,9.5 C14,7 12,5 9.5,5 Z"></path>
+        </g>
+        <g id="pin" transform="translate(24.000000, 0.000000)" fill="#505050" fill-rule="nonzero">
+            <polygon points="16 12 16 4 17 4 17 2 7 2 7 4 8 4 8 12 6 14 6 16 11.2 16 11.2 22 12.8 22 12.8 16 18 16 18 14"></polygon>
+        </g>
+        <g id="open-in-new" transform="translate(48.000000, 0.000000)" fill="#505050" fill-rule="nonzero">
+            <path d="M14,3 L14,5 L17.59,5 L7.76,14.83 L9.17,16.24 L19,6.41 L19,10 L21,10 L21,3 L14,3 Z M19,19 L5,19 L5,5 L12,5 L12,3 L5,3 C3.89,3 3,3.9 3,5 L3,19 C3,20.1045695 3.8954305,21 5,21 L19,21 C20.1045695,21 21,20.1045695 21,19 L21,12 L19,12 L19,19 Z"></path>
+        </g>
+        <g id="calendar" transform="translate(72.000000, 0.000000)" fill="#505050" fill-rule="nonzero">
+            <path d="M19,20 L5,20 L5,9 L19,9 L19,20 Z M16,2 L16,4 L8,4 L8,2 L6,2 L6,4 L5,4 C3.89,4 3,4.89 3,6 L3,20 C3,21.1045695 3.8954305,22 5,22 L19,22 C20.1045695,22 21,21.1045695 21,20 L21,6 C21,4.89 20.1,4 19,4 L18,4 L18,2 L16,2 Z M17,13 L12,13 L12,18 L17,18 L17,13 Z"></path>
+        </g>
+        <g id="chevron-right" transform="translate(96.000000, 0.000000)" fill="#505050" fill-rule="nonzero">
+            <polygon points="8 16.58 12.58 12 8 7.41 9.41 6 15.41 12 9.41 18"></polygon>
+        </g>
+        <g id="chevron-left" transform="translate(120.000000, 0.000000)" fill="#505050" fill-rule="nonzero">
+            <polygon points="15.41 16.58 10.83 12 15.41 7.41 14 6 8 12 14 18"></polygon>
+        </g>
+        <g id="chevron-down" transform="translate(144.000000, 0.000000)" fill="#505050" fill-rule="nonzero">
+            <polygon points="7.41 8 12 12.59 16.59 8 18 9.42 12 15.42 6 9.42"></polygon>
+        </g>
+        <g id="chevron-up" transform="translate(168.000000, 0.000000)" fill="#505050" fill-rule="nonzero">
+            <polygon points="7.41 15.41 12 10.83 16.59 15.41 18 14 12 8 6 14"></polygon>
+        </g>
+    </g>
+</svg>

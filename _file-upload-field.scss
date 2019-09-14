@@ -1,0 +1,38 @@
+
+/* Single styles */
+
+.ginput_container_fileupload > input {
+  background: $container-background-color;
+  border-radius: $border-radius;
+  padding: $padding-large;
+  width: 100%;
+}
+
+/* Error Style */
+.gfield_error .ginput_container_fileupload > input {
+  background: $error-background;
+}
+
+/* Multi styles */
+
+.gfield_error .gform_fileupload_multifile {
+  background: $error-background;
+}
+
+.gform_fileupload_multifile {
+  background: $container-background-color;
+  border-radius: $border-radius;
+  padding: $padding-large;
+}
+
+.gform_drop_area {
+  border: 2px dashed $border-color;
+  border-radius: $border-radius;
+  padding: $padding-medium $padding-medium $padding-large;
+  text-align: center;
+}
+
+.gform_drop_instructions {
+  display: block;
+  padding: $padding-medium $padding-medium $padding-large;
+}

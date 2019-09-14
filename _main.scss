@@ -1,0 +1,89 @@
+@import "icons";
+@import "variables";
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="number"],
+input[type="search"],
+input[type="url"],
+select,
+textarea {
+  background-color: $field-background-color;
+  border-color: $border-color;
+  box-shadow: $box-shadow;
+  box-sizing: border-box;
+  font-size: $field-font-size;
+}
+
+select {
+  height: $field-height;
+  width: 100%;
+}
+
+.gform_wrapper .gform_fields .gfield {
+  margin-bottom: 0;
+}
+
+.ginput_container {
+  margin-bottom: $form-spacing-y;
+}
+
+.ginput_container.ginput_complex {
+  margin-bottom: 0;
+}
+
+.ginput_complex > span {
+  display: block;
+  margin-bottom: $form-spacing-y;
+}
+
+.gfield_radio,
+.gfield_checkbox {
+  margin-top: 6px;
+}
+
+.gfield_radio label {
+  font-size: 95%;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.gfield_checkbox label {
+  font-size: 95%;
+  font-weight: normal;
+  margin-left: 6px;
+}
+
+/* Labels */
+.gfield_label {
+  font-size: $label-font-size;
+  margin: 0px;
+}
+
+/* Sub Labels */
+.ginput_complex > span > label {
+  font-size: $sub-label-font-size;
+  font-weight: normal;
+  margin: 0;
+}
+
+.gfield_description {
+  font-size: $field-description-font-size;
+}
+
+/* Specific field styles imported here */
+@import "date-field";
+@import "time-field";
+@import "address-field";
+@import "name-field";
+@import "file-upload-field";
+@import "credit-card-field";
+@import "css-ready-classes";
+@import "utility-classes";
+@import "errors";
