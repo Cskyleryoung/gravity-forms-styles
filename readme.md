@@ -2,11 +2,7 @@
 
 This is a lean, modern, pretty, and flexible stylesheet for Gravity Forms.
 
-Gravity Forms is awesome, but the basic styles are outdated, bulky, and way over nested, making them difficult to override. It's time for an update.
-
-Although this solution can be used as is, it's also meant to be used as a starting point for customization.
-
-## What's here.
+Gravity Forms is awesome functionally, but the included styles are outdated and difficult to work with. This style package seeks to solve those issues by using:
 
 - Minimal CSS selector nesting.
 - Well organized SASS structure.
@@ -15,19 +11,19 @@ Although this solution can be used as is, it's also meant to be used as a starti
 - CSS Ready Classes included.
 - Additional utility classes for hiding labels, styling submit buttons, etc.
 
-## How to use.
+### How to use.
 
-All SASS files are partials, entended to be imported into your theme or child theme stylesheet via a `style.scss` file. Import `_main.scss` and you are ready to go.
+All SASS files are partials. Import `_main.scss` into your primary SCSS theme file to automatically include all files. For our sites, we do this by adding this repo as a GIT sub-module to our theme repos.
 
-For customization, start by updating the `_variables.scss` file. A few tweaks to height, spacing, and color will be enough to fit into most style guides.
+If you need to customize these styles, start by updating the `_variables.scss` file. A few tweaks to height, spacing, and color will be enough to fit into most style guides. That said, you could also fork this project and modify drastically for your own needs.
 
-### Further considerations:
+#### Further considerations:
 
 1. These styles work particularly well when dropped into a theme that is using Bootstrap.
 
 2. Icons are base64 encoded and inlined in the stylesheets to prevent file-path complications when dropping this into your project. However, the assets are included, so you can reference the images directly if you prefer to load them that way. It may situationally yield better page speed scores.
 
-## Icons.
+### Icons.
 
 Icons are SVG sprites. There are two sprites:
 
@@ -36,11 +32,8 @@ Icons are SVG sprites. There are two sprites:
 
 If you aren't using the default credit card field, commenting out the "CC Icons" section in `_variables.scss` and removing the import for `credit-card-field` in `_main.scss` wil reduce total file size by ~ 50k.
 
-## WIP
+### WIP
 
-Not every style for every field is included, however this project is behind a large number of production sites and is in active development. We are open to suggestions, feedback, and espeically contributions. If you have code to contribute, please submit a pull request.
+This project powers a number of our own sites in production, but is also still in active development, so use at your own risk. If you find bugs or have feedback, please don't hesitate to get in touch. And most of all, if you have contributions, please make a pull request so we can review and add them in.
 
-Thanks!
-
-
-
+Enjoy!
