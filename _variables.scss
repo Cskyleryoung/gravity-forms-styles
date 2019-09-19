@@ -1,108 +1,112 @@
-$field-height: 34px;
-$field-background-color: #fff;
-$container-background-color: #efefef;
-$border-radius: 3px;
-$box-shadow: 0px 0px 10px rgba(0,0,0,0.03);
-$border-color: #cdcdcd;
-$padding-small: 3px;
-$padding-medium: 10px;
-$padding-large: 20px;
-$icon-size: 24px; // This is determined by the height of our icon sprite.
+$gfs-field-height: 34px !default;
+$gfs-field-background-color: #fff !default;
+$gfs-container-background-color: #efefef !default;
+$gfs-border-radius: 3px !default;
+$gfs-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.03) !default;
+$gfs-border-color: #cdcdcd !default;
+$gfs-padding-small: 3px !default;
+$gfs-padding-medium: 10px !default;
+$gfs-padding-large: 20px !default;
+$gfs-icon-size: 24px !default; // This is determined by the height of our icon sprite.
 
-$field-font-size: inherit;
-$field-description-font-size: 14px;
-$label-font-size: inherit;
-$sub-label-font-size: 12px;
+$gfs-field-font-size: inherit !default;
+$gfs-field-description-font-size: 14px !default;
+$gfs-label-font-size: inherit !default;
+$gfs-sub-label-font-size: 12px !default;
 
-$error-color: #d63d59;
-$error-background: #fff1f1;
+$gfs-error-color: #d63d59 !default;
+$gfs-error-background: #fff1f1 !default;
 
 // This value works best if it is a number divisble by 2, 3, and 4.
 // For example, 12, 24, etc are good numbers.
-$form-spacing-x: 12px;
-$form-spacing-y: 12px;
+$gfs-form-spacing-x: 12px !default;
+$gfs-form-spacing-y: 12px !default;
 
-$breakpoint-small: 768px;
+$gfs-breakpoint-small: 768px !default;
+
+$gfs-use-credit-card-styles: true;
 
 %error-message {
-    background: $error-color;
-    color: #fff;
+  background: $gfs-error-color;
+  color: #fff;
 }
 
 /* Basic Icons */
 
 %gf-basic-icon {
-    @extend %icons-basic;
+  @extend %icons-basic;
 
-    display: inline-block;
-    height: 24px;
-    text-indent: -9999px;
-    width: 24px;
+  display: inline-block;
+  height: 24px;
+  text-indent: -9999px;
+  width: 24px;
 }
 
 %gf-icon-search {
-    background-position-x: 0*24px;
+  background-position-x: 0 * 24px;
 }
 
 %gf-icon-pin {
-    background-position-x: -1*24px;
+  background-position-x: -1 * 24px;
 }
 
 %gf-icon-new-window {
-    background-position-x: -2*24px;
+  background-position-x: -2 * 24px;
 }
 
 %gf-icon-calendar {
-    background-position-x: -3*24px;
+  background-position-x: -3 * 24px;
 }
 
 %gf-icon-chevron-right {
-    background-position-x: -4*24px;
+  background-position-x: -4 * 24px;
 }
 
 %gf-icon-chevron-left {
-    background-position-x: -5*24px;
+  background-position-x: -5 * 24px;
 }
 
 %gf-icon-chevron-down {
-    background-position-x: -6*24px;
+  background-position-x: -6 * 24px;
 }
 
 %gf-icon-chevron-up {
-    background-position-x: -7*24px;
+  background-position-x: -7 * 24px;
 }
 
 /* CC Icons */
 
-%gf-cc-icon {
+@if $gfs-use-credit-card-styles {
+  %gf-cc-icon {
     @extend %icons-cc;
 
     display: inline-block;
     height: 32px;
     text-indent: -9999px;
     width: 41px;
-}
+  }
 
-%gf-icon-cc-plain {
-    background-position-x: 0*41px;
-}
+  %gf-icon-cc-plain {
+    background-position-x: 0 * 41px;
+  }
 
-%gf-icon-cc-amex {
-    background-position-x: -1*41px;
-}
+  %gf-icon-cc-amex {
+    background-position-x: -1 * 41px;
+  }
 
-%gf-icon-cc-discover {
-    background-position-x: -2*41px;
-}
+  %gf-icon-cc-discover {
+    background-position-x: -2 * 41px;
+  }
 
-%gf-icon-cc-master {
-    background-position-x: -3*41px;
-}
+  %gf-icon-cc-master {
+    background-position-x: -3 * 41px;
+  }
 
-%gf-icon-cc-paypal {
-    background-position-x: -4*41px;
-}
+  %gf-icon-cc-paypal {
+    background-position-x: -4 * 41px;
+  }
 
-%gf-icon-cc-visa {
-    background-position-x: -5*41px;
+  %gf-icon-cc-visa {
+    background-position-x: -5 * 41px;
+  }
 }
