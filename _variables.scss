@@ -42,41 +42,41 @@ $gfs-breakpoint-small: 768px !default;
   @extend %icons-basic;
 
   display: inline-block;
-  height: 24px;
+  height: $gfs-icon-size;
   text-indent: -9999px;
-  width: 24px;
+  width: $gfs-icon-size;
 }
 
 %gf-icon-search {
-  background-position-x: 0 * 24px;
+  background-position-x: 0 * $gfs-icon-size;
 }
 
 %gf-icon-pin {
-  background-position-x: -1 * 24px;
+  background-position-x: -1 * $gfs-icon-size;
 }
 
 %gf-icon-new-window {
-  background-position-x: -2 * 24px;
+  background-position-x: -2 * $gfs-icon-size;
 }
 
 %gf-icon-calendar {
-  background-position-x: -3 * 24px;
+  background-position-x: -3 * $gfs-icon-size;
 }
 
 %gf-icon-chevron-right {
-  background-position-x: -4 * 24px;
+  background-position-x: -4 * $gfs-icon-size;
 }
 
 %gf-icon-chevron-left {
-  background-position-x: -5 * 24px;
+  background-position-x: -5 * $gfs-icon-size;
 }
 
 %gf-icon-chevron-down {
-  background-position-x: -6 * 24px;
+  background-position-x: -6 * $gfs-icon-size;
 }
 
 %gf-icon-chevron-up {
-  background-position-x: -7 * 24px;
+  background-position-x: -7 * $gfs-icon-size;
 }
 
 /* CC Icons */
@@ -86,7 +86,7 @@ $gfs-breakpoint-small: 768px !default;
     @extend %icons-cc;
 
     display: inline-block;
-    height: 32px;
+    height: $gfs-field-height;
     text-indent: -9999px;
     width: 41px;
   }

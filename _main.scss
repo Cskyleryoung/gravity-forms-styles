@@ -22,23 +22,14 @@ textarea {
   box-shadow: $gfs-box-shadow;
   box-sizing: border-box;
   font-size: $gfs-field-font-size;
-  height: auto;
+  height: $gfs-field-height;
   line-height: $gfs-field-line-height;
   padding: $gfs-field-padding-y $gfs-field-padding-x;
 }
 
-// textarea {
-//   background-color: $gfs-field-background-color;
-//   border-color: $gfs-border-color;
-//   border-style: $gfs-border-style;
-//   border-width: $gfs-border-width;
-//   border-radius: $gfs-border-radius;
-//   box-shadow: $gfs-box-shadow;
-//   box-sizing: border-box;
-//   font-size: $gfs-field-font-size;
-//   line-height: $gfs-field-line-height;
-//   padding: $gfs-field-padding-y $gfs-field-padding-x;
-// }
+textarea {
+  height: auto;
+}
 
 .gform_wrapper .gform_fields .gfield {
   margin-bottom: 0;
