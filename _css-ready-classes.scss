@@ -1,25 +1,25 @@
-@media screen and (min-width: $breakpoint-small) {
+@media screen and (min-width: $gfs-breakpoint-small) {
   .gf_left_half {
     float: left;
-    margin-right: #{$form-spacing-x};
-    width: calc(50% - #{$form-spacing-x}/2);
+    margin-right: #{$gfs-form-spacing-x};
+    width: calc(50% - #{$gfs-form-spacing-x}/2);
   }
 
   .gf_right_half {
     float: left;
-    width: calc(50% - #{$form-spacing-x}/2);
+    width: calc(50% - #{$gfs-form-spacing-x}/2);
   }
 
   .gf_left_third,
   .gf_middle_third {
     float: left;
-    margin-right: #{$form-spacing-x};
-    width: calc(33% - #{$form-spacing-x}*2/3);
+    margin-right: #{$gfs-form-spacing-x};
+    width: calc(33% - #{$gfs-form-spacing-x}*2/3);
   }
 
   .gf_right_third {
     float: left;
-    width: calc(34% - #{$form-spacing-x}*2/3);
+    width: calc(34% - #{$gfs-form-spacing-x}*2/3);
   }
 
   .gf_right_half + .gfield,

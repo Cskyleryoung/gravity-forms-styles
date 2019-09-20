@@ -13,26 +13,26 @@
 
 .gform_validation_error {
   .gform_fields .gfield_error {
-    margin-bottom: $form-spacing-y;
+    margin-bottom: $gfs-form-spacing-y;
   }
 
   .validation_error {
     @extend %error-message;
 
-    border-radius: $border-radius;
-    margin-bottom: $form-spacing-y;
+    border-radius: $gfs-border-radius;
+    margin-bottom: $gfs-form-spacing-y;
     padding: 10px;
   }
 
   .gfield_error {
-    background: $error-background;
-    border-radius: $border-radius;
-    margin-bottom: $form-spacing-y;
+    background: $gfs-error-background;
+    border-radius: $gfs-border-radius;
+    margin-bottom: $gfs-form-spacing-y;
     padding: 0 5px 12px;
     position: relative;
 
     .gfield_label {
-      color: $error-color;
+      color: $gfs-error-color;
     }
 
     input[type="text"],
@@ -48,14 +48,14 @@
     input[type="url"],
     select,
     textarea {
-      border-color: $error-color;
+      border-color: $gfs-error-color;
     }
   }
 
   .validation_message {
     @extend %error-message;
 
-    border-radius: 0 0 $border-radius $border-radius;
+    border-radius: 0 0 $gfs-border-radius $gfs-border-radius;
     bottom: 0;
     left: 0;
     line-height: 16px;

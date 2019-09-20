@@ -14,15 +14,15 @@ input[type="search"],
 input[type="url"],
 select,
 textarea {
-  background-color: $field-background-color;
-  border-color: $border-color;
-  box-shadow: $box-shadow;
+  background-color: $gfs-field-background-color;
+  border-color: $gfs-border-color;
+  box-shadow: $gfs-box-shadow;
   box-sizing: border-box;
-  font-size: $field-font-size;
+  font-size: $gfs-field-font-size;
 }
 
 select {
-  height: $field-height;
+  height: $gfs-field-height;
   width: 100%;
 }
 
@@ -31,7 +31,7 @@ select {
 }
 
 .ginput_container {
-  margin-bottom: $form-spacing-y;
+  margin-bottom: $gfs-form-spacing-y;
 }
 
 .ginput_container.ginput_complex {
@@ -40,7 +40,7 @@ select {
 
 .ginput_complex > span {
   display: block;
-  margin-bottom: $form-spacing-y;
+  margin-bottom: $gfs-form-spacing-y;
 }
 
 .gfield_radio,
@@ -62,19 +62,19 @@ select {
 
 /* Labels */
 .gfield_label {
-  font-size: $label-font-size;
+  font-size: $gfs-label-font-size;
   margin: 0px;
 }
 
 /* Sub Labels */
 .ginput_complex > span > label {
-  font-size: $sub-label-font-size;
+  font-size: $gfs-sub-label-font-size;
   font-weight: normal;
   margin: 0;
 }
 
 .gfield_description {
-  font-size: $field-description-font-size;
+  font-size: $gfs-field-description-font-size;
 }
 
 /* Specific field styles imported here */

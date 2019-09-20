@@ -1,7 +1,7 @@
 
 /* These styles apply to wide screen layout. Mobile defaults to single column. */
 
-@media screen and (min-width: $breakpoint-small) {
+@media screen and (min-width: $gfs-breakpoint-small) {
   .ginput_container_address {
     display: flex;
     flex-wrap: wrap;
@@ -15,17 +15,17 @@
 
     .address_city {
       flex: 3 auto;
-      padding-right: $form-spacing-x;
+      padding-right: $gfs-form-spacing-x;
     }
 
     .address_state {
       flex: 0 0 160px;
-      padding-right: $form-spacing-x;
+      padding-right: $gfs-form-spacing-x;
     }
 
     .address_zip {
       flex: 0 0 100px;
-      padding-right: $form-spacing-x;
+      padding-right: $gfs-form-spacing-x;
     }
 
     .address_zip {

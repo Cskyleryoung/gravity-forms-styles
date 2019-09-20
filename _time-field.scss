@@ -2,7 +2,7 @@
     float: left;
 
     label {
-        font-size: $sub-label-font-size;
+        font-size: $gfs-sub-label-font-size;
         font-weight: normal;
         margin: 0;
     }
@@ -20,7 +20,7 @@
         display: inline-block;
         font-style: normal;
         font-weight: bold;
-        line-height: $field-height;
+        line-height: $gfs-field-height;
         text-align: center;
         width: 12px;
     }

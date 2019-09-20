@@ -24,7 +24,7 @@ $gfs-form-spacing-y: 12px !default;
 
 $gfs-breakpoint-small: 768px !default;
 
-$gfs-use-credit-card-styles: true;
+$gfs-use-credit-card-styles: true !default;
 
 %error-message {
   background: $gfs-error-color;
