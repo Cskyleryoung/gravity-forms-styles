@@ -1,11 +1,12 @@
-$gfs-field-height: 34px !default;
+$gfs-field-height: 34px !default; // This requires a numeric value for calculations.
 $gfs-icon-size: 24px !default; // This is determined by the height of our icon sprite.
 $gfs-padding-small: 5px !default;
 $gfs-padding-medium: 10px !default;
 $gfs-padding-large: 20px !default;
 
 $gfs-field-font-size: inherit !default;
-$gfs-field-line-height: 18px !default;
+$gfs-field-font-family: inherit !default;
+$gfs-field-line-height: 18px !default; // This requires a numeric value for calculations.
 $gfs-field-background-color: #fff !default;
 $gfs-field-padding-y: ($gfs-field-height - $gfs-field-line-height) / 2 !default;
 $gfs-field-padding-x: $gfs-padding-small !default;

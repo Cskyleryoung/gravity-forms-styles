@@ -15,15 +15,12 @@ input[type="url"],
 select,
 textarea {
   background-color: $gfs-field-background-color;
-  border-color: $gfs-border-color;
-  border-style: $gfs-border-style;
-  border-width: $gfs-border-width;
+  border: $gfs-border-width $gfs-border-style $gfs-border-color;
   border-radius: $gfs-border-radius;
   box-shadow: $gfs-box-shadow;
   box-sizing: border-box;
-  font-size: $gfs-field-font-size;
+  font: $gfs-field-font-size/$gfs-field-line-height $gfs-field-font-family;
   height: $gfs-field-height;
-  line-height: $gfs-field-line-height;
   padding: $gfs-field-padding-y $gfs-field-padding-x;
 }
 
