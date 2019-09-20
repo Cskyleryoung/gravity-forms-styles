@@ -86,7 +86,7 @@ $gfs-breakpoint-small: 768px !default;
     @extend %icons-cc;
 
     display: inline-block;
-    height: $gfs-field-height;
+    height: 32px;
     text-indent: -9999px;
     width: 41px;
   }
