@@ -1,0 +1,40 @@
+/*
+    Styling select fields is so complicated that it gets it's own file.
+    Credit: https://css-tricks.com/styling-a-select-like-its-2019/
+*/
+
+select {
+  display: block;
+  font-weight: inherit;
+  color: inherit;
+  padding-right: $gfs-field-height;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  appearance: none;
+  background-color: $gfs-field-background-color;
+  background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU4ICg4NDY2MykgLSBodHRwczovL3NrZXRjaC5jb20gLS0+CiAgICA8dGl0bGU+U2VsZWN0IEFycm93PC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGcgaWQ9IlNlbGVjdC1BcnJvdyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9ImNoZXZyb24tZG93biIgZmlsbD0iIzUwNTA1MCIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPHBvbHlnb24gcG9pbnRzPSI3LjQxIDggMTIgMTIuNTkgMTYuNTkgOCAxOCA5LjQyIDEyIDE1LjQyIDYgOS40MiI+PC9wb2x5Z29uPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+"),
+    linear-gradient(to bottom, $gfs-field-background-color 0%, $gfs-field-background-color 100%);
+  background-repeat: no-repeat, repeat;
+  background-position: right ($gfs-field-height - $gfs-icon-size)/2 top ($gfs-field-height - $gfs-icon-size)/2, 0 0;
+  background-size: auto, 100%;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select option {
+  font-weight: normal;
+}
+
+// select:hover {
+//   border-color: #888;
+// }
+
+select:focus {
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  outline: none;
+}

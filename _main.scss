@@ -16,16 +16,29 @@ select,
 textarea {
   background-color: $gfs-field-background-color;
   border-color: $gfs-border-color;
+  border-style: $gfs-border-style;
+  border-width: $gfs-border-width;
   border-radius: $gfs-border-radius;
   box-shadow: $gfs-box-shadow;
   box-sizing: border-box;
   font-size: $gfs-field-font-size;
+  height: auto;
+  line-height: $gfs-field-line-height;
+  padding: $gfs-field-padding-y $gfs-field-padding-x;
 }
 
-select {
-  height: $gfs-field-height;
-  width: 100%;
-}
+// textarea {
+//   background-color: $gfs-field-background-color;
+//   border-color: $gfs-border-color;
+//   border-style: $gfs-border-style;
+//   border-width: $gfs-border-width;
+//   border-radius: $gfs-border-radius;
+//   box-shadow: $gfs-box-shadow;
+//   box-sizing: border-box;
+//   font-size: $gfs-field-font-size;
+//   line-height: $gfs-field-line-height;
+//   padding: $gfs-field-padding-y $gfs-field-padding-x;
+// }
 
 .gform_wrapper .gform_fields .gfield {
   margin-bottom: 0;
@@ -79,6 +92,7 @@ select {
 }
 
 /* Specific field styles imported here */
+@import "select";
 @import "date-field";
 @import "time-field";
 @import "address-field";
