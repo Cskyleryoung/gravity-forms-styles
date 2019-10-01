@@ -19,8 +19,10 @@ textarea {
   border-radius: $gfs-border-radius;
   box-shadow: $gfs-box-shadow;
   box-sizing: border-box;
-  font: $gfs-field-font-size/$gfs-field-line-height $gfs-field-font-family;
+  font-family: $gfs-field-font-family;
+  font-size: $gfs-field-font-size;
   height: $gfs-field-height;
+  line-height: $gfs-field-line-height;
   padding: $gfs-field-padding-y $gfs-field-padding-x;
 }
 
