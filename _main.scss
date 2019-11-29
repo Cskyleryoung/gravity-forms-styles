@@ -82,13 +82,16 @@ textarea {
 }
 
 /* Specific field styles imported here */
-@import "select";
-@import "date-field";
-@import "time-field";
-@import "address-field";
-@import "name-field";
-@import "file-upload-field";
-@import "credit-card-field";
-@import "css-ready-classes";
 @import "utility-classes";
+
+@import "address-field";
+@import "credit-card-field";
+@import "date-field";
+@import "file-upload-field";
+@import "name-field";
+@import "select";
+@import "text-area";
+@import "time-field";
+
+@import "css-ready-classes";
 @import "errors";

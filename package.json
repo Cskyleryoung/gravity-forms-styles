@@ -1,0 +1,26 @@
+{
+  "name": "gravity-forms-styles",
+  "version": "1.0.0",
+  "description": "Simple, modern style sheet for Gravity Forms. Uses SASS, SVG icons, and as few nested selectors as possible for easy overrides.",
+  "main": "_main.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cskyleryoung/gravity-forms-styles.git"
+  },
+  "keywords": [
+    "SASS",
+    "Gravity",
+    "Forms",
+    "CSS",
+    "Styles"
+  ],
+  "author": "C. Skyler Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cskyleryoung/gravity-forms-styles/issues"
+  },
+  "homepage": "https://github.com/Cskyleryoung/gravity-forms-styles#readme"
+}
