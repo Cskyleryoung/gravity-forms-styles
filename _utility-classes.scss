@@ -1,3 +1,15 @@
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}
+
+.clear-multi {
+  @include clearfix;
+}
+
 .sv-form-hide-labels .gfield_label {
   left: -9999px;
   position: absolute;
