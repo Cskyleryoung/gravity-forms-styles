@@ -1,3 +1,5 @@
+$gfs-date-select-height: 24px;
+
 .ui-datepicker {
   background: #fefefe;
   border: 1px solid $gfs-border-color;
@@ -16,7 +18,8 @@
 
   .ui-datepicker-month,
   .ui-datepicker-year {
-    width: 65px;
+    display: inline-block;
+    width: 75px;
   }
 
   .ui-datepicker-prev {
@@ -41,7 +44,9 @@
 
   select {
     background-color: #fff;
-    height: 24px;
+    background-position: right ($gfs-date-select-height - $gfs-icon-size)/2 top ($gfs-date-select-height - $gfs-icon-size)/2, 0 0;
+    height: $gfs-date-select-height;
+    padding: 0 $gfs-field-padding-x;
   }
 
   .ui-datepicker-month {

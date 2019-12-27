@@ -34,6 +34,18 @@ textarea {
   margin-bottom: 0;
 }
 
+.gform_fields {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: block;
+    list-style: none;
+    list-style-type: none;
+  }
+}
+
 .ginput_container {
   margin-bottom: $gfs-form-spacing-y;
 }
