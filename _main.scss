@@ -93,6 +93,11 @@ textarea {
   font-size: $gfs-field-description-font-size;
 }
 
+/* Hide validation fields */
+body .gform_wrapper .gform_validation_container {
+  display: none;
+}
+
 /* Specific field styles imported here */
 @import "utility-classes";
 
