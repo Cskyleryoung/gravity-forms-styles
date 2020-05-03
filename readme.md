@@ -15,7 +15,7 @@ Gravity Forms is awesome functionally, but the included styles are outdated and 
 
 All SASS files are partials. Variables use `!default`. Overrides are _easy_.
 
-Import `_main.scss` into your primary SCSS theme file to automatically include all files. Before the import, set any of the theme variables that you want to override. In most situations, you should be able to customize the form just by overriding variables and never need to touch the course.
+Import `_main.scss` into your primary SCSS theme file to automatically include all files. Before the import, set any of the theme variables that you want to override. In most situations, you should be able to customize the form just by overriding variables and never need to touch the source.
 
 **NOTE:** The end goal is to have a system flexible enough that you really never need to touch source and just use overrides. You migh be able to just include this repo as a submodule in your theme and keep things easily up to date that way. _However_, this project is still in active development, so you should expect breaking changes for the time being. Factor that in.
 
