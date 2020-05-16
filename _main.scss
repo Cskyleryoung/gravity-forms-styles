@@ -26,6 +26,16 @@ textarea {
   padding: $gfs-field-padding-y $gfs-field-padding-x;
 }
 
+input.medium,
+select.medium {
+  width: 50%;
+}
+
+input.small,
+select.small {
+  width: 25%;
+}
+
 textarea {
   height: auto;
 }
@@ -85,6 +95,10 @@ textarea {
   padding: $gfs-label-padding;
 }
 
+.hidden_label .gfield_label {
+  display: none;
+}
+
 /* Sub Labels */
 .ginput_complex > span > label {
   font-size: $gfs-sub-label-font-size;
@@ -92,8 +106,10 @@ textarea {
   margin: 0;
 }
 
+/* Description */
 .gfield_description {
   font-size: $gfs-field-description-font-size;
+  padding: $gfs-field-description-padding;
 }
 
 /* Hide validation fields */
