@@ -17,13 +17,21 @@ All SASS files are partials. Variables use `!default`. Overrides are _easy_.
 
 Import `_main.scss` into your primary SCSS theme file to automatically include all files. Before the import, set any of the theme variables that you want to override. In most situations, you should be able to customize the form just by overriding variables and never need to touch the source.
 
-**NOTE:** The end goal is to have a system flexible enough that you really never need to touch source and just use overrides. You migh be able to just include this repo as a submodule in your theme and keep things easily up to date that way. _However_, this project is still in active development, so you should expect breaking changes for the time being. Factor that in.
+**NOTE:** The end goal is to have a system flexible enough that you really never need to touch source and just use overrides. You might be able to just include this repo as a submodule in your theme and keep things easily up to date that way. _However_, this project is still in active development, so you should expect breaking changes for the time being. Factor that in.
 
 Obviously, you could also just download the source and modify to your hearts content. If you do something broadly useful or more performant, please contribute it back to the main repo :)
 
+### Common Gotchas
+
+Don't forget to turn off Gravity Forms default styles: Forms -> Settings -> Output CSS = "No".
+
+Because we are avoiding selector nesting, you may find your GFS styles are getting overwritten by other, generic styles. One solution is to make sure your styles get enqueued last by using a high number as the action hook priority. For example:
+
+`add_action('wp_enqueue_scripts', 'add_your_styles', PHP_MAX_INT)`
+
 ### Utility classes.
 
-A small assortment of classes to further style forms on a case-by-case basis. Utility classes should be added to a parent of your embeded form.
+A small assortment of classes to further style forms on a case-by-case basis. Utility classes should be added to a parent of your embedded form.
 
 `.sv-form-hide-labels` hides all field labels. Best used with small lead capture style forms. Don't forget to use placeholders.
 

@@ -78,8 +78,11 @@ textarea {
 
 /* Labels */
 .gfield_label {
+  font-family: $gfs-label-font-family;
   font-size: $gfs-label-font-size;
+  line-height: $gfs-label-line-height;
   margin: 0px;
+  padding: $gfs-label-padding;
 }
 
 /* Sub Labels */
@@ -96,6 +99,12 @@ textarea {
 /* Hide validation fields */
 body .gform_wrapper .gform_validation_container {
   display: none;
+}
+
+/* Buttons */
+.gform_button {
+  border-radius: $gfs-border-radius;
+  padding: $gfs-button-padding-y $gfs-button-padding-x;
 }
 
 /* Specific field styles imported here */

@@ -11,6 +11,16 @@ $gfs-field-background-color: #fff !default;
 $gfs-field-padding-y: ($gfs-field-height - $gfs-field-line-height) / 2 !default;
 $gfs-field-padding-x: $gfs-padding-small !default;
 
+$gfs-label-font-family: inherit !default;
+$gfs-label-font-size: inherit !default;
+$gfs-label-line-height: 18px !default; // This requires a numeric value for calculations.
+$gfs-label-padding: 0 0 $gfs-padding-small;
+
+$gfs-button-font-family: inherit !default;
+$gfs-button-font-size: inherit !default;
+$gfs-button-padding-x: $gfs-padding-medium;
+$gfs-button-padding-y: $gfs-field-padding-y;
+
 $gfs-container-background-color: #efefef !default;
 $gfs-border-radius: 3px !default;
 $gfs-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.03) !default;
