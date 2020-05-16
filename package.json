@@ -1,6 +1,6 @@
 {
   "name": "gravity-forms-styles",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Simple, modern style sheet for Gravity Forms. Uses SASS, SVG icons, and as few nested selectors as possible for easy overrides.",
   "main": "_main.scss",
   "scripts": {
