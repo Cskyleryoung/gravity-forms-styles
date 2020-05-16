@@ -102,7 +102,8 @@ body .gform_wrapper .gform_validation_container {
 }
 
 /* Buttons */
-.gform_button {
+input[type=button],
+input[type=submit] {
   border-radius: $gfs-border-radius;
   padding: $gfs-button-padding-y $gfs-button-padding-x;
 }
