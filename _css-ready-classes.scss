@@ -3,11 +3,25 @@
     float: left;
     margin-right: #{$gfs-form-spacing-x};
     width: calc(50% - #{$gfs-form-spacing-x}/2);
+
+    input.medium,
+    select.medium,
+    input.small,
+    select.small {
+      width: 100%;
+    }
   }
 
   .gf_right_half {
     float: left;
     width: calc(50% - #{$gfs-form-spacing-x}/2);
+
+    input.medium,
+    select.medium,
+    input.small,
+    select.small {
+      width: 100%;
+    }
   }
 
   .gf_left_third,
@@ -15,11 +29,25 @@
     float: left;
     margin-right: #{$gfs-form-spacing-x};
     width: calc(33% - #{$gfs-form-spacing-x}*2/3);
+
+    input.medium,
+    select.medium,
+    input.small,
+    select.small {
+      width: 100%;
+    }
   }
 
   .gf_right_third {
     float: left;
     width: calc(34% - #{$gfs-form-spacing-x}*2/3);
+
+    input.medium,
+    select.medium,
+    input.small,
+    select.small {
+      width: 100%;
+    }
   }
 
   .gf_right_half + .gfield,
