@@ -95,7 +95,8 @@ textarea {
   padding: $gfs-label-padding;
 }
 
-.hidden_label .gfield_label {
+.hidden_label > label,
+label.hidden_sub_label {
   display: none;
 }
 
